@@ -5,7 +5,7 @@ a phenotype-driven model for gene prioritization.The heterogeneous graph embeddi
 The data used in the training model are placed in `./data/` .The edge relation, weight and trained embedding information have been encapsulated by pickle module. In addition, the test data used are also included. In `./models/`, it includes the method of constructing graphs, node coding method, training method, test code, etc
 
 # Usage
-In folder `./models/prioritize/Het2Gene/` ,run the following command(The same goes for weighted graphs) can use Het2Gene:
+In folder `./models/prioritize/Het2Gene/` ,run the following command can use Het2Gene:
 ```
 python het2gene.py --hps [parameter] --out_dir [-options][parameter] --topn [-options][parameter]
 ```
