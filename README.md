@@ -4,6 +4,9 @@ a phenotype-driven model for gene prioritization.The heterogeneous graph embeddi
 # Folder description
 The data used in the training model are placed in `./data/` .The edge relation, weight and trained embedding information have been encapsulated by pickle module. In addition, the test data used are also included. In `./models/`, it includes the method of constructing graphs, node coding method, training method, test code, etc
 
+# PreSelect Random Gene
+Randomly select 999 genes from your own genetic range, and add pathogenic genes to form a gene set of size 1000. In this way, create ten gene sets and calculate the ranking of pathogenic genes in the corresponding gene set each time. Take the median of the ten gene sets as the final ranking
+
 # Usage
 In folder `./models/prioritize/Het2Gene/` ,run the following command can use Het2Gene:
 ```
@@ -39,6 +42,7 @@ Phen2Gene:[https://phen2gene.wglab.org](https://phen2gene.wglab.org)
 
 GADO:[https://genenetwork.nl/gado](https://genenetwork.nl/gado)
 
+PhenoApt:[https://www.phenoapt.org/]
 # License
 See the LICENSE file for license rights and limitations
 
