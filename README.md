@@ -2,7 +2,7 @@
 a phenotype-driven model for gene prioritization.The heterogeneous graph embedding algorithm is used to learn the embedding representation of heterogeneous graph nodes, and the score of candidate causal genes is calculated according to the embedding, so as to prioritize.
 
 # Folder description
-The data used in the training model are placed in `./data/` .The edge relation, weight and trained embedding information have been encapsulated by pickle module. In addition, the test data used are also included. In `./models/`, it includes the method of constructing weighted and unweighted graphs, node coding method, training method, test code, etc
+The data used in the training model are placed in `./data/` .The edge relation, weight and trained embedding information have been encapsulated by pickle module. In addition, the test data used are also included. In `./models/`, it includes the method of constructing graphs, node coding method, training method, test code, etc
 
 # Usage
 In folder `./models/prioritize/Het2Gene/` ,run the following command(The same goes for weighted graphs) can use Het2Gene:
