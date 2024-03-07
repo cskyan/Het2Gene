@@ -1,4 +1,4 @@
-# Het2Gene
+# Het2Gene: a phenotype-driven model for gene prioritization by Heterogeneous graph embedding
 a phenotype-driven model for gene prioritization.The heterogeneous graph embedding algorithm is used to learn the embedding representation of heterogeneous graph nodes, and the score of candidate causal genes is calculated according to the embedding, so as to prioritize.
 
 # Folder description
